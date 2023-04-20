@@ -74,5 +74,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ```
 npm install gh-pages --save-dev
 ```
-
+https://hackernoon.com/how-to-deploy-a-react-app-to-github-pages
 
