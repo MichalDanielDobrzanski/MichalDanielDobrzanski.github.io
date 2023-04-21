@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Email from '../components/Email.js';
+import EmailPlanter from '../components/EmailPlanter.js';
 import { Link } from 'react-router-dom';
 import * as ROUTES from './Routes.js';
 
@@ -109,7 +109,7 @@ export default function PlanterTC() {
       <p>Any changes to Terms & Conditions will be effective after posting the updated Terms & Conditions on this page.</p>
 
       <h2>Contact Us</h2>
-      <p>If you have any questions or suggestions about our Terms & Conditions, do not hesitate to contact us at <Email /></p>
+      <p>If you have any questions or suggestions about our Terms & Conditions, do not hesitate to contact us at <EmailPlanter /></p>
 
       <p>
         These Terms & Conditions are effective as of <b>2021-05-07</b>.
@@ -214,7 +214,7 @@ export default function PlanterTC() {
       <p>Wszelkie zmiany w Regulaminie zaczynają obowiązywać po opublikowaniu zaktualizowanego Regulaminu na tej stronie.</p>
 
       <h2>Skontaktuj się z nami</h2>
-      <p>Jeśli masz jakiekolwiek pytania lub sugestie dotyczące niniejszego Regulaminu, nie wahaj się z nami skontaktować pod adresem <Email /></p>
+      <p>Jeśli masz jakiekolwiek pytania lub sugestie dotyczące niniejszego Regulaminu, nie wahaj się z nami skontaktować pod adresem <EmailPlanter /></p>
 
       <p>Niniejsze Warunki obowiązują od <b>2021-05-07</b>.</p>
       <p />

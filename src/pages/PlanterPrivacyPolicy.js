@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Email from '../components/Email.js';
+import EmailPlanter from '../components/EmailPlanter.js';
 
 export default function PlanterPrivacyPolicy() {
   return (
@@ -11,7 +11,7 @@ export default function PlanterPrivacyPolicy() {
       <p>
         The controller of your personal data is Michał Dobrzański, running a business under the name “Oscillator Michał Dobrzański” in Warsaw (Poland), with NIP (tax ID): 7123362460, REGON: 369525410.
       </p>
-      <p>You can contact the data controller via e-mail address: <Email />.</p>
+      <p>You can contact the data controller via e-mail address: <EmailPlanter />.</p>
       <p>
         Your personal data will be processed in accordance with the Act of May 10, 2018 on the protection of personal data and the Regulation (EU) 2016/679 of April 27, 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC, hereinafter referred to as “GDPR”.
       </p>
@@ -33,7 +33,7 @@ export default function PlanterPrivacyPolicy() {
         Your personal data (e-mail address) will be processed for the period in which you remain a registered user of the App.
       </p>
       <p>
-        In order to delete the account, contact the data controller via e-mail address: <Email />
+        In order to delete the account, contact the data controller via e-mail address: <EmailPlanter />
       </p>
       <h2>DISCLOSURE OF DATA TO THIRD PARTIES</h2>
       <p>
@@ -80,7 +80,7 @@ export default function PlanterPrivacyPolicy() {
           <li>Transfer your personal data, in accordance with Art. 20 of the GDPR.</li>
         </ul>
         <p>
-          In order to exercise your rights, contact the data controller via e-mail address: <Email />.
+          In order to exercise your rights, contact the data controller via e-mail address: <EmailPlanter />.
         </p>
       </p>
       <h2>RIGHT TO LODGE A COMPLAINT</h2>
@@ -96,7 +96,7 @@ export default function PlanterPrivacyPolicy() {
         Administratorem Twoich danych osobowych jest Michał Dobrzański prowadzący działalność gospodarczą pod firmą „Oscillator Michał Dobrzański” w Warszawie (Polska), posiadający NIP: 7123362460, REGON: 369525410.
       </p>
       <p>
-        Z administratorem możesz skontaktować się poprzez adres e-mail: <Email />
+        Z administratorem możesz skontaktować się poprzez adres e-mail: <EmailPlanter />
       </p>
       <p>
         Dane Osobowe będą przetwarzane zgodnie z ustawą z dnia 10 maja 2018 r. o ochronie danych osobowych oraz Rozporządzeniem UE 2016/679 z dnia 27 kwietnia 2016 r., zwanym dalej „RODO”.
@@ -112,7 +112,7 @@ export default function PlanterPrivacyPolicy() {
       <p>Podanie danych osobowych (w postaci adresu e-mail) jest dobrowolne. Jednak w przypadku braku ich podania Administrator nie będzie mógł realizować celu wskazanego w pkt 2., a w związku z tym niemożliwe będzie korzystanie z Aplikacji.</p>
 
       <h2>OKRES PRZETWARZANIA</h2>
-      <p>Twoje dane osobowe (w postaci adresu e-mail) będą przetwarzane przez okres, w którym pozostajesz zarejestrowanym użytkownikiem Aplikacji. W celu usunięcia konta skontaktuj się z administratorem poprzez adres e-mail: <Email />.</p>
+      <p>Twoje dane osobowe (w postaci adresu e-mail) będą przetwarzane przez okres, w którym pozostajesz zarejestrowanym użytkownikiem Aplikacji. W celu usunięcia konta skontaktuj się z administratorem poprzez adres e-mail: <EmailPlanter />.</p>
 
       <h2>ODBIORCY DANYCH OSOBOWYCH</h2>
       <p>Odbiorcami danych osobowych mogą być:</p>
@@ -166,7 +166,7 @@ export default function PlanterPrivacyPolicy() {
         </li>
       </ul>
 
-      <p>W celu skorzystania z przysługujących Ci praw skontaktuj się z administratorem poprzez adres e-mail: <Email />.</p>
+      <p>W celu skorzystania z przysługujących Ci praw skontaktuj się z administratorem poprzez adres e-mail: <EmailPlanter />.</p>
 
       <h2>PRAWO WNIESIENIA SKARG</h2>
       <p>Masz również prawo wnieść skargę na przetwarzanie przez administratora Twoich danych osobowych do Prezesa Urzędu Ochrony Danych Osobowych, adres: ul. Stawki 2, 00-193 Warszawa.</p>
