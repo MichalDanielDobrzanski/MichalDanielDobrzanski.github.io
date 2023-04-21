@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-function Home() {
+export default function Home() {
   return (
       <Container>
         <h1>Welcome to My Landing Page</h1>
@@ -11,6 +11,3 @@ function Home() {
       </Container>
   );
 }
-
-export default Home;
-

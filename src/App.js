@@ -5,18 +5,16 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
-function App() {
+export default function App() {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/" element={<Home/>} exact />
+        <Route path="/about" element={<About/>} exact />
+        <Route path="/contact" element={<Contact/>} exact />
       </Routes>
     </>
   );
 }
-
-export default App;
 
