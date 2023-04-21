@@ -76,3 +76,7 @@ npm install gh-pages --save-dev
 ```
 https://hackernoon.com/how-to-deploy-a-react-app-to-github-pages
 
+To deploy:
+```
+npm run deploy
+```

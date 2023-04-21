@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import * as ROUTES from './pages/Routes.js';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -10,9 +11,9 @@ export default function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home/>} exact />
-        <Route path="/about" element={<About/>} exact />
-        <Route path="/contact" element={<Contact/>} exact />
+        <Route path={ROUTES.HOME_ROUTE} element={<Home />} exact />
+        <Route path={ROUTES.ABOUT_ROUTE} element={<About />} exact />
+        <Route path={ROUTES.CONTACT_ROUTE} element={<Contact />} exact />
       </Routes>
     </>
   );
