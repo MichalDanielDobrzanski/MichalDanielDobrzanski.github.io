@@ -13,9 +13,9 @@ function MyNavbar() {
         <Nav className="ml-auto">
           <Nav.Link as={Link} to={ROUTES.PLANTER_PRIVACY_POLICY}>Planter Privacy Policy</Nav.Link>
           <Nav.Link as={Link} to={ROUTES.PLANTER_TC}>Planter Terms And Conditions</Nav.Link>
+          <Nav.Link as={Link} to={ROUTES.HOURGLASS_PRIVACY_POLICY}>Hourglass Privacy Policy</Nav.Link>
           <Nav.Link as={Link} to={ROUTES.ABOUT_ROUTE}>About</Nav.Link>
           <Nav.Link as={Link} to={ROUTES.CONTACT_ROUTE}>Contact</Nav.Link>
-          <Nav.Link as={Link} to={ROUTES.HOURGLASS_PRIVACY_POLICY}>Hourglass Privacy Policy</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
