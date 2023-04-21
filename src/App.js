@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import PlanterPrivacyPolicy from './pages/PlanterPrivacyPolicy.js';
+import PlanterTC from './pages/PlanterTC.js';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path={ROUTES.ABOUT_ROUTE} element={<About />} exact />
         <Route path={ROUTES.CONTACT_ROUTE} element={<Contact />} exact />
         <Route path={ROUTES.PLANTER_PRIVACY_POLICY} element={<PlanterPrivacyPolicy />} exact />
+        <Route path={ROUTES.PLANTER_TC} element={<PlanterTC />} exact />
       </Routes>
     </>
   );

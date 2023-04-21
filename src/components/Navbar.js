@@ -12,6 +12,7 @@ function MyNavbar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Link as={Link} to={ROUTES.PLANTER_PRIVACY_POLICY}>Planter Privacy Policy</Nav.Link>
+          <Nav.Link as={Link} to={ROUTES.PLANTER_TC}>Planter Terms And Conditions</Nav.Link>
           <Nav.Link as={Link} to={ROUTES.ABOUT_ROUTE}>About</Nav.Link>
           <Nav.Link as={Link} to={ROUTES.CONTACT_ROUTE}>Contact</Nav.Link>
         </Nav>
