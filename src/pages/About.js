@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-function About() {
+export default function About() {
   return (
     <Container>
       <h1>About</h1>
@@ -11,5 +11,3 @@ function About() {
     </Container>
   );
 }
-
-export default About;

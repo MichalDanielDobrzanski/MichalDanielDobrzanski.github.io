@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-function Contact() {
+export default function Contact() {
   return (
       <Container>
         <h1>Welcome to My Landing Page</h1>
@@ -11,6 +11,4 @@ function Contact() {
       </Container>
   );
 }
-
-export default Contact;
 
