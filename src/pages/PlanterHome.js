@@ -11,6 +11,8 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Background from '../assets/background.jpg';
 import { useTheme } from '@mui/material/styles';
+import AndroidStoreButton from '../components/AndroidStoreButton.js';
+import IosStoreButton from '../components/IosStoreButton.js';
 
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -55,17 +57,10 @@ export default function PlanterHome() {
               </div>
               It is a beautiful, intuitive mobile application, which helps you taking care of your plants.
             </Typography>
-
-            <Stack
-              sx={{ pt: 4 }}
-              direction="row"
-              spacing={2}
-              justifyContent="center"
-            >
-              <Button variant="contained">Main call to action</Button>
-              <Button variant="outlined">Secondary action</Button>
-            </Stack>
-
+            <Box sx={{ height: 48 }} />
+            <IosStoreButton />
+            <Box sx={{ height: 48 }} />
+            <AndroidStoreButton />
           </Container>
         </Box>
 
