@@ -1,7 +1,7 @@
 import React from 'react';
 import "@fontsource/montserrat";
 import PropTypes from 'prop-types';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import * as ROUTES from './pages/Routes.js';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -49,42 +49,44 @@ function Copyright() {
 
 export default function App() {
   return (
-    <AppTheme>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <>
-          <Navbar />
-          <Routes>
-            <Route path={ROUTES.HOME} element={<Home />} exact />
-            <Route path={ROUTES.PLANTER_HOME_ROUTE} element={<PlanterHome />} exact />
-            <Route path={ROUTES.ABOUT_ROUTE} element={<About />} exact />
-            <Route path={ROUTES.CONTACT_ROUTE} element={<Contact />} exact />
-            <Route path={ROUTES.PLANTER_PRIVACY_POLICY} element={<PlanterPrivacyPolicy />} exact />
-            <Route path={ROUTES.HOURGLASS_PRIVACY_POLICY} element={<HourglassPrivacyPolicy />} exact />
-            <Route path={ROUTES.PLANTER_TC} element={<PlanterTC />} exact />
-          </Routes>
-        </>
+    <BrowserRouter>
+      <AppTheme>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          <>
+            <Navbar />
+            <Routes>
+              <Route path={ROUTES.HOME} element={<Home />} exact />
+              <Route path={ROUTES.PLANTER_HOME_ROUTE} element={<PlanterHome />} exact />
+              <Route path={ROUTES.ABOUT_ROUTE} element={<About />} exact />
+              <Route path={ROUTES.CONTACT_ROUTE} element={<Contact />} exact />
+              <Route path={ROUTES.PLANTER_PRIVACY_POLICY} element={<PlanterPrivacyPolicy />} exact />
+              <Route path={ROUTES.HOURGLASS_PRIVACY_POLICY} element={<HourglassPrivacyPolicy />} exact />
+              <Route path={ROUTES.PLANTER_TC} element={<PlanterTC />} exact />
+            </Routes>
+          </>
 
 
-        <Box sx={{
-          p: 6
-        }} component="footer">
-          <Typography variant="h6" align="center" gutterBottom>
-            Oscillator Michał Dobrzański
-          </Typography>
+          <Box sx={{
+            p: 6
+          }} component="footer">
+            <Typography variant="h6" align="center" gutterBottom>
+              Oscillator Michał Dobrzański
+            </Typography>
 
-          <Typography
-            variant="subtitle1"
-            align="center"
-            color="text.secondary"
-            component="p"
-          >
-            Created by Michał Dobrzański
-          </Typography>
-          <Copyright />
-        </Box>
-      </ThemeProvider>
-    </AppTheme>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              color="text.secondary"
+              component="p"
+            >
+              Created by Michał Dobrzański
+            </Typography>
+            <Copyright />
+          </Box>
+        </ThemeProvider>
+      </AppTheme>
+    </BrowserRouter>
   );
 }
 
