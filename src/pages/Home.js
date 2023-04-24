@@ -1,6 +1,9 @@
 import React from 'react';
+import * as ROUTES from './Routes.js';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
 
 export default function PlanterHome() {
   return (
@@ -23,6 +26,16 @@ export default function PlanterHome() {
         >
           Please navigate to the dedicated section
         </Typography>
+
+        <Stack
+          sx={{ pt: 4 }}
+          direction="row"
+          spacing={2}
+          justifyContent="center"
+        >
+          <Button href={ROUTES.PLANTER_HOME_ROUTE} variant="contained">Planter</Button>
+          <Button href={ROUTES.HOURGLASS_PRIVACY_POLICY} variant="contained">Hourglass</Button>
+        </Stack>
       </Container>
     </main>
   );
