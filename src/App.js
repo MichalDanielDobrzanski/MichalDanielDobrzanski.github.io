@@ -16,7 +16,19 @@ import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import CssBaseline from '@mui/material/CssBaseline';
 
-const theme = createTheme();
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#A6EAC5',
+    },
+    secondary: {
+      main: '#75B896',
+    },
+    background: {
+      default: '#FAFDF7'
+    }
+  },
+});
 
 function Copyright() {
   return (
@@ -48,23 +60,26 @@ export default function App() {
             <Route path={ROUTES.PLANTER_TC} element={<PlanterTC />} exact />
           </Routes>
         </>
+
+
+        <Box sx={{
+          p: 6
+        }} component="footer">
+          <Typography variant="h6" align="center" gutterBottom>
+            Oscillator Michał Dobrzański
+          </Typography>
+
+          <Typography
+            variant="subtitle1"
+            align="center"
+            color="text.secondary"
+            component="p"
+          >
+            Created by Michał Dobrzański
+          </Typography>
+          <Copyright />
+        </Box>
       </ThemeProvider>
-
-      <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
-        <Typography variant="h6" align="center" gutterBottom>
-          Oscillator Michał Dobrzański
-        </Typography>
-
-        <Typography
-          variant="subtitle1"
-          align="center"
-          color="text.secondary"
-          component="p"
-        >
-          Created by Michał Dobrzański
-        </Typography>
-        <Copyright />
-      </Box>
     </AppTheme>
   );
 }

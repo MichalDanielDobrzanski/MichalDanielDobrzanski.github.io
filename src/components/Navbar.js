@@ -5,7 +5,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 function MyNavbar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
       <Navbar.Brand as={Link} to={ROUTES.HOME}>Home</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 
-export default function PlanterHome() {
+export default function Home() {
   return (
     <main>
       <Container sx={{ py: 8 }} maxWidth="md">
