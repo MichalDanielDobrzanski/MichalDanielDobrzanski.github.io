@@ -99,6 +99,59 @@ export default function PlanterHome() {
             ))}
           </Grid>
         </Container>
+
+
+        <Container sx={{ py: 8 }} maxWidth="md">
+          <Card
+            sx={{
+              height: '100%',
+              display: 'flex',
+              flexDirection: 'column',
+              padding: "24px"
+            }}
+          >
+            <Typography variant="h4">
+              We love plants right?
+            </Typography>
+            <p />
+            <Typography>
+              So how many of them you have in your home? 20, 50, or more than 100?
+              It can get difficult to handle all of them and it might be easy to lose track of them.
+              Which one has been watered? Was this Ficus fertilised lately?
+            </Typography>
+            <p />
+            <Typography variant="h6">
+              Planter is a tool which has all those answers in a single place.
+            </Typography>
+            <p />
+            <Typography>
+              This is the tool dedicated to help you with your everyday duties around your plants.
+              <p />
+              It helps you keep a watchful eye on your plants.
+              <p />
+              The app has a diary and a calendar view to help you browse and track any plant related events and actions.
+              <p />
+              <Typography variant="h6">
+                Planter makes your plant care fully customisable.
+              </Typography>
+              <p />
+              You can adjust any plant property like like sunlight intensity, pruning, misting, fertilizing requirements at any time.
+            </Typography>
+            <p />
+            <Typography variant="h6">
+              Simplicity
+            </Typography>
+            <p />
+            Planter is designed to be minimalistic and intutive application with least distraction screens. <p />
+
+            <Typography variant="h6">
+              Cross platform
+            </Typography>
+            <p />
+            The app works on both iOS devices and Android ones as well.
+            <p />
+          </Card>
+        </Container>
       </div >
     </main>
   );
