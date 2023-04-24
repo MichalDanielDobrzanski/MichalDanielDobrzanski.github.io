@@ -80,3 +80,6 @@ To deploy:
 ```
 npm run deploy
 ```
+
+Issues:
+- handle 404s like this: https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing
