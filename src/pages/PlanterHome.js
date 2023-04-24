@@ -33,9 +33,14 @@ export default function PlanterHome() {
           >
             Welcome to Planter
           </Typography>
-          <Typography variant="h5" align="center" color="text.secondary" paragraph>
+          <Typography
+            variant="h5"
+            align="center"
+            color="text.secondary"
+            paragraph
+          >
             <div>
-            Planter meets all of your plant diary needs.
+              Planter meets all of your plant diary needs.
             </div>
             It is a beatutiful, intuitive mobile application, which helps you taking care of your plants.
           </Typography>
