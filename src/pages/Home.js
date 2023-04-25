@@ -16,7 +16,7 @@ export default function Home() {
           color="text.primary"
           gutterBottom
         >
-          Welcome to Oscillator Michał Dobrzański Landing Page
+          Welcome to Planter & Hourglass Landing Page
         </Typography>
         <Typography
           variant="p"

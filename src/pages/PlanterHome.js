@@ -1,11 +1,9 @@
 import React from 'react';
-import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
-import Stack from '@mui/material/Stack';
+import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
@@ -13,8 +11,38 @@ import Background from '../assets/background.jpg';
 import { useTheme } from '@mui/material/styles';
 import AndroidStoreButton from '../components/AndroidStoreButton.js';
 import IosStoreButton from '../components/IosStoreButton.js';
+import HexConverter from '../utils/HexConverter.js';
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const cards = [
+  {
+    title: "Plant List",
+    descr: "Check your plants in an intuitive way with search tool and quick actions",
+  },
+  {
+    title: "Plant Details",
+    descr: "Inspect your plant in a detailed way showcasing the plant condition",
+  },
+  {
+    title: "Plant Diary",
+    descr: "Browse the plant diary for past actions and events",
+  },
+  {
+    title: "Plant Calendar",
+    descr: "Browse main calendar with all of your plants in order not to miss anything!",
+  },
+  {
+    title: "Adding a plant",
+    descr: "Add customizable options which you can change any time!",
+  },
+  {
+    title: "Editing a plant",
+    descr: "Edit plant details in an intuitive way",
+  },
+  {
+    title: "Dark Mode",
+    descr: "Switch to dark mode or better contrast at night",
+  },
+];
 
 const style = {
   backgroundImage: `url(${Background})`,
@@ -24,7 +52,8 @@ const style = {
 
 export default function PlanterHome() {
   const theme = useTheme();
-  const color = theme.palette.getContrastText("#000000")
+  const contrastTextColor = theme.palette.getContrastText("#000000")
+  const backgroundColor = HexConverter("#404040", 0.3);
 
   return (
     <main >
@@ -35,65 +64,96 @@ export default function PlanterHome() {
               pt: 8,
               pb: 6,
             }}
-            maxWidth="sm"
+            maxWidth="md"
           >
-            <Typography
-              component="h2"
-              variant="h2"
-              align="center"
-              color={color}
-              gutterBottom
-            >
-              Welcome to Planter
-            </Typography>
-            <Typography
-              variant="h5"
-              align="center"
-              color={color}
-              paragraph
-            >
-              <div>
-                Planter meets all of your plant diary needs.
-              </div>
-              It is a beautiful, intuitive mobile application, which helps you taking care of your plants.
-            </Typography>
-            <Box sx={{ height: 48 }} />
-            <IosStoreButton />
-            <Box sx={{ height: 48 }} />
-            <AndroidStoreButton />
+            <Paper sx={{
+              p: 8,
+              backgroundColor: backgroundColor,
+            }} elevation={10}>
+              <Typography
+                component="h2"
+                variant="h2"
+                align="center"
+                color={contrastTextColor}
+                gutterBottom
+              >
+                Welcome to Planter
+              </Typography>
+              <Typography
+                variant="h5"
+                align="center"
+                color={contrastTextColor}
+                paragraph
+              >
+                <div>
+                  Planter meets all of your plant diary needs.
+                </div>
+                It is a beautiful, intuitive mobile application, which helps you taking care of your plants.
+              </Typography>
+            </Paper>
+            <Container
+              sx={{
+                pt: 8,
+                pb: 6,
+              }}
+              maxWidth="sm">
+              <IosStoreButton />
+              <Box sx={{ height: 48 }} />
+              <AndroidStoreButton />
+            </Container>
           </Container>
         </Box>
 
-        <Container sx={{ py: 8 }} maxWidth="md">
-          {/* End hero unit */}
-          <Grid container spacing={4}>
+        <Container
+          sx={{}}
+          maxWidth="md"
+        >
+          <Grid
+            container
+            spacing={4}
+          >
             {cards.map((card) => (
-              <Grid item key={card} xs={12} sm={6} md={4}>
+              // https://mui.com/material-ui/api/grid/
+              <Grid
+                item
+                key={card}
+                xs={12}
+                sm={6}
+                md={6}
+              >
                 <Card
-                  sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+                  sx={{
+                    height: '100%',
+                    display: 'flex',
+                    flexDirection: 'column'
+                  }}
+                  elevation={10}
                 >
                   <CardMedia
-                    component="img"
                     sx={{
-                      // 16:9
-                      pt: '56.25%',
+                      width: '100%',
+                      objectFit: 'contain',
                     }}
+                    height="500"
+                    component="img"
                     image="https://source.unsplash.com/random"
                     alt="random"
                   />
-                  <CardContent sx={{ flexGrow: 1 }}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      Heading
+                  <CardContent
+                    sx={{ flexGrow: 1 }}
+                  >
+                    <Typography
+                      gutterBottom
+                      fontWeight="600"
+                      variant="h5"
+                      component="h2">
+                      {card.title}
                     </Typography>
-                    <Typography>
-                      This is a media card. You can use this section to describe the
-                      content.
+                    <Typography
+                      paragraph>
+                      {card.descr}
                     </Typography>
                   </CardContent>
-                  <CardActions>
-                    <Button size="small">View</Button>
-                    <Button size="small">Edit</Button>
-                  </CardActions>
                 </Card>
               </Grid>
             ))}
