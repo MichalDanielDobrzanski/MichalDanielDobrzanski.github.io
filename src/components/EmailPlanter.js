@@ -1,7 +1,8 @@
 import React from 'react';
+import EmailPrivate from './EmailPrivate';
 
 export default function EmailPlanter() {
     return (
-        <a href="mailto:info@getplanter.com">info@getplanter.com</a>
+        <EmailPrivate />
     );
 }
