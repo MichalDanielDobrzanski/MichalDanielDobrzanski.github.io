@@ -53,7 +53,7 @@ const style = {
 export default function PlanterHome() {
   const theme = useTheme();
   const contrastTextColor = theme.palette.getContrastText("#000000")
-  const backgroundColor = HexConverter("#404040", 0.3);
+  const backgroundColor = HexConverter("#404040", 0.4);
 
   return (
     <main >
@@ -70,9 +70,11 @@ export default function PlanterHome() {
               p: 8,
               backgroundColor: backgroundColor,
             }} elevation={10}>
-              <Typography
-                component="h2"
-                variant="h2"
+              <Typography sx={{
+                wordWrap: "break-word"
+              }}
+                component="h3"
+                variant="h3"
                 align="center"
                 color={contrastTextColor}
                 gutterBottom
@@ -88,6 +90,7 @@ export default function PlanterHome() {
                 <div>
                   Planter meets all of your plant diary needs.
                 </div>
+                <p/>
                 It is a beautiful, intuitive mobile application, which helps you taking care of your plants.
               </Typography>
             </Paper>
