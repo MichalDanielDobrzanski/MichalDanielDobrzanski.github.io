@@ -14,6 +14,7 @@ function MyNavbar() {
           <Nav.Link as={Link} to={ROUTES.PLANTER_HOME_ROUTE}>Planter Home</Nav.Link>
           <Nav.Link as={Link} to={ROUTES.PLANTER_PRIVACY_POLICY}>Planter Privacy Policy</Nav.Link>
           <Nav.Link as={Link} to={ROUTES.PLANTER_TC}>Planter Terms And Conditions</Nav.Link>
+          <Nav.Link as={Link} to={ROUTES.PLANTER_DELETE}>Delete Planter account</Nav.Link>
           <Nav.Link as={Link} to={ROUTES.HOURGLASS_PRIVACY_POLICY}>Hourglass Privacy Policy</Nav.Link>
           <Nav.Link as={Link} to={ROUTES.CONTACT_ROUTE}>Contact</Nav.Link>
         </Nav>

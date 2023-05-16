@@ -14,6 +14,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import CssBaseline from '@mui/material/CssBaseline';
+import PlanterDelete from './pages/PlanterDelete.js';
 
 const theme = createTheme({
   typography: {
@@ -59,6 +60,7 @@ export default function App() {
               <Route path={ROUTES.PLANTER_PRIVACY_POLICY} element={<PlanterPrivacyPolicy />} exact />
               <Route path={ROUTES.HOURGLASS_PRIVACY_POLICY} element={<HourglassPrivacyPolicy />} exact />
               <Route path={ROUTES.PLANTER_TC} element={<PlanterTC />} exact />
+              <Route path={ROUTES.PLANTER_DELETE} element={<PlanterDelete />} exact />
             </Routes>
           </>
 
