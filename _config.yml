@@ -18,16 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Oscillator Landing Page
+title: Oscillator
 email: dobrzanskioscillator@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a landing page for Planter mobile application.
-  Contains 
+  This is a landing page for Planter and Hourglass mobile applications.
 domain: michaldanieldobrzanski.github.io
 url: https://michaldanieldobrzanski.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  MichalDanielDobrzanski
 
 # Build settings
 theme: minima
