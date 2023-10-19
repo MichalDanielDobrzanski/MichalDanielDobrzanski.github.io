@@ -1,5 +1,10 @@
 # Jekyll
 
+### Namecheap configuration:
+- Use correct IPs: https://github.com/astrosites/astrosites.github.io/issues/2
+- Apex domain config: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site 
+
+
 ### Development
 - `run.sh` script for checking it locally
 
