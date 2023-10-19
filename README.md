@@ -3,6 +3,7 @@
 ### Namecheap configuration:
 - Use correct IPs: https://github.com/astrosites/astrosites.github.io/issues/2
 - Apex domain config: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site 
+- A addresses: https://www.namecheap.com/support/knowledgebase/article.aspx/319/2237/how-can-i-set-up-an-a-address-record-for-my-domain/
 
 
 ### Development
