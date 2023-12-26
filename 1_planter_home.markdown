@@ -4,7 +4,10 @@ title: Planter Home
 permalink: /planter/
 ---
 
-<h2>Welcome to Planter</h2>
+<h2>Planter mobile app</h2>
+<p align="center">
+    <img src="favicon.png" width=100 class="center"/>
+</p>
 
 <div>
 Planter meets all of your plant diary needs.
