@@ -5,6 +5,10 @@ permalink: /planter/termsandconditions/
 ---
 
 <h1>Terms and Conditions</h1>
+<p align="center">
+    <img src="favicon.png" width=100 class="center"/>
+</p>
+
 <p><i>— W celu wyświetlenia warunków użytkowania aplikacji w wersji polskiej, należy przewinąć stronę niżej—</i></p>
 <h2>Terms and Conditions</h2>
 <p>By downloading or using the app, these terms will automatically apply to you – therefore you should make sure to read them carefully before using the app.</p>
@@ -106,7 +110,7 @@ you must stop using the app, and (if needed) delete it from your device.
 <p>Any changes to Terms & Conditions will be effective after posting the updated Terms & Conditions on this page.</p>
 
 <h2>Contact Us</h2>
-<p>If you have any questions or suggestions about our Terms & Conditions, do not hesitate to contact us at <a href="mailto:dobrzanskioscillator@gmail.com">dobrzanskioscillator@gmail.com</a></p>
+<p>If you have any questions or suggestions about our Terms & Conditions, do not hesitate to contact us at <a href="mailto:contact@getplanter.app">contact@getplanter.app</a></p>
 
 <p>
 These Terms & Conditions are effective as of <b>2021-05-07</b>.
@@ -211,7 +215,7 @@ b) musisz zaprzestać korzystania z aplikacji i (w razie potrzeby) usunąć ją 
 <p>Wszelkie zmiany w Regulaminie zaczynają obowiązywać po opublikowaniu zaktualizowanego Regulaminu na tej stronie.</p>
 
 <h2>Skontaktuj się z nami</h2>
-<p>Jeśli masz jakiekolwiek pytania lub sugestie dotyczące niniejszego Regulaminu, nie wahaj się z nami skontaktować pod adresem <a href="mailto:dobrzanskioscillator@gmail.com">dobrzanskioscillator@gmail.com</a></p>
+<p>Jeśli masz jakiekolwiek pytania lub sugestie dotyczące niniejszego Regulaminu, nie wahaj się z nami skontaktować pod adresem <a href="mailto:contact@getplanter.app">contact@getplanter.app</a></p>
 
 <p>Niniejsze Warunki obowiązują od <b>2021-05-07</b>.</p>
 <p />

@@ -4,7 +4,7 @@ title: Planter Home
 permalink: /planter/
 ---
 
-<h2>Planter mobile app</h2>
+<h1>Planter mobile app</h1>
 <p align="center">
     <img src="favicon.png" width=100 class="center"/>
 </p>

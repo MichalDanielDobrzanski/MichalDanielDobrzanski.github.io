@@ -5,6 +5,7 @@ permalink: /hourglass/privacypolicy/
 ---
 
 <h1>Hourglass Privacy Policy</h1>
+
 <p>
 Michał Dobrzański built the Hourglass app as an Ad Supported app. This SERVICE is provided by Michał Dobrzański at no cost and is intended for use as is.
 </p>

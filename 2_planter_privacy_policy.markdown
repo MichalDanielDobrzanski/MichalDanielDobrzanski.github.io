@@ -4,14 +4,17 @@ title: Planter Privacy Policy
 permalink: /planter/privacypolicy
 ---
 
-<h1>Privacy Policy</h1>
+<h1>Planter Privacy Policy</h1>
+<p align="center">
+    <img src="favicon.png" width=100 class="center"/>
+</p>
 <p><i>— W celu wyświetlenia polityki prywatności w wersji polskiej, należy przewinąć stronę niżej —</i></p>
 <h2>DATA CONTROLLER</h2>
 <p>
 The controller of your personal data is Michał Dobrzański, running a business under the name “Oscillator Michał Dobrzański” in Warsaw (Poland), with NIP (tax ID): 7123362460, REGON: 369525410.
 </p>
 <p>
-You can contact the data controller via e-mail address: <a href="mailto:dobrzanskioscillator@gmail.com">dobrzanskioscillator@gmail.com</a>.
+You can contact the data controller via e-mail address: <a href="mailto:contact@getplanter.app">contact@getplanter.app</a>.
 </p>
 <p>
 Your personal data will be processed in accordance with the Act of May 10, 2018 on the protection of personal data and the Regulation (EU) 2016/679 of April 27, 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC, hereinafter referred to as “GDPR”.
@@ -34,7 +37,7 @@ Providing personal data (e-mail address) is voluntary. However, if they are not 
 Your personal data (e-mail address) will be processed for the period in which you remain a registered user of the App.
 </p>
 <p>
-In order to delete the account, contact the data controller via e-mail address: <a href="mailto:dobrzanskioscillator@gmail.com">dobrzanskioscillator@gmail.com</a>
+In order to delete the account, contact the data controller via e-mail address: <a href="mailto:contact@getplanter.app">contact@getplanter.app</a>
 </p>
 <h2>DISCLOSURE OF DATA TO THIRD PARTIES</h2>
 <p>
@@ -81,7 +84,7 @@ In accordance with the applicable data protection regulations, you have the righ
 <li>Transfer your personal data, in accordance with Art. 20 of the GDPR.</li>
 </ul>
 <p>
-In order to exercise your rights, contact the data controller via e-mail address: <a href="mailto:dobrzanskioscillator@gmail.com">dobrzanskioscillator@gmail.com</a>.
+In order to exercise your rights, contact the data controller via e-mail address: <a href="mailto:contact@getplanter.app">contact@getplanter.app</a>.
 </p>
 </p>
 <h2>RIGHT TO LODGE A COMPLAINT</h2>
@@ -97,7 +100,7 @@ In order to exercise your rights, contact the data controller via e-mail address
 Administratorem Twoich danych osobowych jest Michał Dobrzański prowadzący działalność gospodarczą pod firmą „Oscillator Michał Dobrzański” w Warszawie (Polska), posiadający NIP: 7123362460, REGON: 369525410.
 </p>
 <p>
-Z administratorem możesz skontaktować się poprzez adres e-mail: <a href="mailto:dobrzanskioscillator@gmail.com">dobrzanskioscillator@gmail.com</a>
+Z administratorem możesz skontaktować się poprzez adres e-mail: <a href="mailto:contact@getplanter.app">contact@getplanter.app</a>
 </p>
 <p>
 Dane Osobowe będą przetwarzane zgodnie z ustawą z dnia 10 maja 2018 r. o ochronie danych osobowych oraz Rozporządzeniem UE 2016/679 z dnia 27 kwietnia 2016 r., zwanym dalej „RODO”.
@@ -113,7 +116,7 @@ Dane Osobowe będą przetwarzane zgodnie z ustawą z dnia 10 maja 2018 r. o ochr
 <p>Podanie danych osobowych (w postaci adresu e-mail) jest dobrowolne. Jednak w przypadku braku ich podania Administrator nie będzie mógł realizować celu wskazanego w pkt 2., a w związku z tym niemożliwe będzie korzystanie z Aplikacji.</p>
 
 <h2>OKRES PRZETWARZANIA</h2>
-<p>Twoje dane osobowe (w postaci adresu e-mail) będą przetwarzane przez okres, w którym pozostajesz zarejestrowanym użytkownikiem Aplikacji. W celu usunięcia konta skontaktuj się z administratorem poprzez adres e-mail: <a href="mailto:dobrzanskioscillator@gmail.com">dobrzanskioscillator@gmail.com</a>.</p>
+<p>Twoje dane osobowe (w postaci adresu e-mail) będą przetwarzane przez okres, w którym pozostajesz zarejestrowanym użytkownikiem Aplikacji. W celu usunięcia konta skontaktuj się z administratorem poprzez adres e-mail: <a href="mailto:contact@getplanter.app">contact@getplanter.app</a>.</p>
 
 <h2>ODBIORCY DANYCH OSOBOWYCH</h2>
 <p>Odbiorcami danych osobowych mogą być:</p>
@@ -168,7 +171,7 @@ Do przeniesienia danych osobowych, zgodnie z art. 20 RODO;
 </ul>
 
 <p>
-W celu skorzystania z przysługujących Ci praw skontaktuj się z administratorem poprzez adres e-mail: <a href="mailto:dobrzanskioscillator@gmail.com">dobrzanskioscillator@gmail.com</a>.
+W celu skorzystania z przysługujących Ci praw skontaktuj się z administratorem poprzez adres e-mail: <a href="mailto:contact@getplanter.app">contact@getplanter.app</a>.
 </p>
 
 <h2>PRAWO WNIESIENIA SKARG</h2>

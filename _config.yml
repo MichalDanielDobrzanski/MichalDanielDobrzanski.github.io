@@ -36,6 +36,7 @@ plugins:
 # https://getplanter.app/.well-known/assetlinks.json
 include:
   - .well-known
+  - favicon.png
 
 # Exclude from processing.
 # The following items will not be processed, by default.
