@@ -6,7 +6,7 @@ permalink: /planter/
 
 <h1>Planter mobile app</h1>
 <p align="center">
-    <img src="favicon.png" width=100 class="center"/>
+    <img src="_favicon.png" width=100 class="center"/>
 </p>
 
 <div>

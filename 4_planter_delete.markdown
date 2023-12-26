@@ -6,7 +6,7 @@ permalink: /planter/delete/
 
 <h2>Delete Planter account</h2>
 <p align="center">
-    <img src="favicon.png" width=100 class="center"/>
+    <img src="_favicon.png" width=100 class="center"/>
 </p>
 
 <p>
