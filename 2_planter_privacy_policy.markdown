@@ -5,9 +5,7 @@ permalink: /planter/privacypolicy
 ---
 
 <h1>Planter Privacy Policy</h1>
-<p align="center">
-    <img src="_favicon.png" width=100 class="center"/>
-</p>
+
 <p><i>— W celu wyświetlenia polityki prywatności w wersji polskiej, należy przewinąć stronę niżej —</i></p>
 <h2>DATA CONTROLLER</h2>
 <p>

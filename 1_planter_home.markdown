@@ -5,10 +5,6 @@ permalink: /planter/
 ---
 
 <h1>Planter mobile app</h1>
-<p align="center">
-    <img src="_favicon.png" width=100 class="center"/>
-</p>
-
 <div>
 Planter meets all of your plant diary needs.
 </div>

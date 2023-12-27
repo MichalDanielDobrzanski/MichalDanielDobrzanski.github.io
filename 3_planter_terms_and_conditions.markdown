@@ -5,9 +5,6 @@ permalink: /planter/termsandconditions/
 ---
 
 <h1>Terms and Conditions</h1>
-<p align="center">
-    <img src="_favicon.png" width=100 class="center"/>
-</p>
 
 <p><i>— W celu wyświetlenia warunków użytkowania aplikacji w wersji polskiej, należy przewinąć stronę niżej—</i></p>
 <h2>Terms and Conditions</h2>
