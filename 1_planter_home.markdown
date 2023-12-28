@@ -5,6 +5,10 @@ permalink: /planter/
 ---
 
 <h1>Planter mobile app</h1>
+
+[Download from App Store](https://apps.apple.com/us/app/planter-plant-diary/id1564440923)
+[Download from Google Play Store](https://play.google.com/store/apps/details?id=com.oscillator.planter.prod)
+
 <div>
 Planter meets all of your plant diary needs.
 </div>
